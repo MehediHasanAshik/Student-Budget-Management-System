@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@android:color/holo_red_light"
+    >
+
+    <TextView
+        android:id="@+id/serial_text"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:text="No"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/serial_fooding"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:text="Food"
+        android:layout_toRightOf="@+id/serial_text"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/serial_recharge"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:text="Recharge"
+        android:layout_toRightOf="@+id/serial_fooding"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/serial_shopping"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:text="shopping"
+        android:layout_toRightOf="@+id/serial_recharge"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/serial_transport"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:text="Transport"
+        android:layout_toRightOf="@+id/serial_shopping"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/serial_exchange"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:text="Exchange"
+        android:layout_toRightOf="@+id/serial_transport"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/serial_other"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:text="Other"
+        android:layout_toRightOf="@+id/serial_exchange"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

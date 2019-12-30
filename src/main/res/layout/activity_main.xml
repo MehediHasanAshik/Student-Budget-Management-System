@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/fornt"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_below="@+id/image"
+        >
+
+
+        <Button
+            android:id="@+id/foodingb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/fooding"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fooding"
+            android:layout_below="@+id/foodingb"
+            android:layout_marginLeft="55dp"
+            />
+
+        <Button
+            android:id="@+id/rechargeb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/image"
+            android:background="@drawable/recharge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recharge"
+            android:layout_below="@+id/rechargeb"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="52dp"
+            />
+
+
+        <Button
+            android:id="@+id/shoppingb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="35dp"
+            android:layout_below="@+id/foodingb"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/shopping"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shopping"
+            android:layout_below="@+id/shoppingb"
+            android:layout_marginLeft="50dp"
+            />
+
+        <Button
+            android:id="@+id/transportb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/transport"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rechargeb"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transport"
+            android:layout_below="@+id/transportb"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="52dp"
+            />
+
+        <Button
+            android:id="@+id/moneyexb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/exchange"
+            android:layout_below="@+id/shoppingb"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money Exchange"
+            android:layout_below="@+id/moneyexb"
+            android:layout_marginLeft="28dp"
+            />
+
+        <Button
+            android:id="@+id/othrexng"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/transportb"
+            android:background="@drawable/other" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Expenses"
+            android:layout_below="@+id/othrexng"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
